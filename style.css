@@ -1,0 +1,95 @@
+body {
+    background-image: url("media/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    font-family: 'Roboto', sans-serif;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+footer {
+    position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	color: white;
+	text-align: center;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 2px;
+}
+
+.centered {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+    text-align: center;
+}
+
+@keyframes welcome {
+    from { top: 50%; }
+    to { top: 25% }
+}
+
+.welcome {
+    width: 100%;
+    color: white;
+    position: relative;
+    font-size: 32px;
+    animation-name: welcome;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.dl-android {
+    vertical-align: middle;
+
+    box-shadow: 3px 3px #19633a;
+    background-color: #3ddc84;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+    transition-duration: 0.4s;
+}
+
+.dl-android:hover {
+    box-shadow: 3px 3px #319960;
+
+    background-color: #19633a;
+    color: white;
+    cursor: pointer;
+}
+
+@keyframes dl-btn {
+    from { top: 50%; opacity: 0; }
+    to { top: 22%; opacity: 1; }
+}
+
+.dl-android-wrapper {
+    position: relative;
+    
+    opacity: 0;
+
+    animation-name: dl-btn;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
