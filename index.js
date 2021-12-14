@@ -1,12 +1,12 @@
 const main = () => {
     document.body.style.opacity='1';
 
-    typewriter("Bun venit.", 150, "welcome-text");
+    typewriter("Bun venit!", 150, "welcome-text");
     setTimeout(() => {
         reverse_typewriter(50, "welcome-text");
         setTimeout(() => {
             clear("welcome-text");
-            typewriter("Descarcă Swordwaves!", 150, "welcome-text");
+            typewriter("Joacă Swordwaves II Demo!", 150, "welcome-text");
         }, 500);
     }, 3000);
 }

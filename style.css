@@ -1,5 +1,5 @@
 body {
-    background-image: url("media/bg.png");
+    background-image: url("media/sw2.png");
     background-size: cover;
 
     font-family: 'Roboto', sans-serif;
@@ -54,8 +54,8 @@ footer p {
 .dl-android {
     vertical-align: middle;
 
-    box-shadow: 3px 3px #19633a;
-    background-color: #3ddc84;
+    box-shadow: 3px 3px #850c0c;
+    background-color: #c01111;
     border: none;
     border-radius: 5px;
     color: white;
@@ -69,9 +69,9 @@ footer p {
 }
 
 .dl-android:hover {
-    box-shadow: 3px 3px #319960;
+    box-shadow: 3px 3px #c01111;
 
-    background-color: #19633a;
+    background-color: #850c0c;
     color: white;
     cursor: pointer;
 }
