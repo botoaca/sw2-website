@@ -6,7 +6,7 @@ const main = () => {
         reverse_typewriter(50, "welcome-text");
         setTimeout(() => {
             clear("welcome-text");
-            typewriter("Joacă Swordwaves II Demo!", 150, "welcome-text");
+            typewriter("Joacă Swordwaves 2!", 150, "welcome-text");
         }, 500);
     }, 3000);
 }
